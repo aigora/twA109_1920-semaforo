@@ -7,7 +7,7 @@ Miguel Lobo Ocaña
 
 Jaime Martín Mendoza
 
-David Tertre Boyé (dtertre59)
+David Tertre Boyé @dtertre59
 
 y usuario GitHub de los integrantes del equipo.
 
