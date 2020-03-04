@@ -3,7 +3,7 @@
 Descripción breve del proyecto a realizar (2-3 frases).
 
 ## Integrantes del equipo
-Miguel Lobo Ocaña
+Miguel Lobo Ocaña \n
 Jaime Martín Mendoza
 David Tertre Boyé
 
