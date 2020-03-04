@@ -3,8 +3,10 @@
 Descripción breve del proyecto a realizar (2-3 frases).
 
 ## Integrantes del equipo
-Miguel Lobo Ocaña \n
+Miguel Lobo Ocaña
+
 Jaime Martín Mendoza
+
 David Tertre Boyé
 
 y usuario GitHub de los integrantes del equipo.
