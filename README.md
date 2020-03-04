@@ -1,10 +1,13 @@
-# Título del trabajo
+# SEMAFORO
 
 Descripción breve del proyecto a realizar (2-3 frases).
 
 ## Integrantes del equipo
+Miguel Lobo Ocaña
+Jaime Martín Mendoza
+David Tertre Boyé
 
-Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
+y usuario GitHub de los integrantes del equipo.
 
 ## Objetivos del trabajo
 
