@@ -1,0 +1,9 @@
+#sensores y actuadores
+
+4 leds:  3 para el semáforo (1 rojo, 1 verde, 1 naranja) y 1 naranja para que el peatón sepa si ha pulsado el botón. 
+
+1 pulsador para que el peatón active el semáforo.
+
+1 ultrasonidos para calcular la distancia y velocidad del coche.
+
+1 cámara para que haga una foto cuando el coche pase el semáforo por encima del límite de velocidad o en rojo.
