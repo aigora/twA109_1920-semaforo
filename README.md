@@ -5,7 +5,7 @@ Vamos a hacer un semáforo de "pueblo" semiautomático (si pulsas el botón se p
 ## Integrantes del equipo
 Miguel Lobo Ocaña @mloboo
 
-Jaime Martín Mendoza @
+Jaime Martín Mendoza @jaimemartinmendozaa
 
 David Tertre Boyé @dtertre59
 
