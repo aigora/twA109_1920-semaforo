@@ -1,6 +1,6 @@
 # SEMAFORO
 
-Vamos a hacer un semáforo de "pueblo" semiautomático (si pulsas el botón se pone verde) y con control de velocidad.
+Semaforo de carretera con pulsador.
 
 ## Integrantes del equipo
 Miguel Lobo Ocaña @mloboo
