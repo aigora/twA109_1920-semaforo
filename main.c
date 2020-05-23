@@ -12,14 +12,10 @@
 
 void Crear_Conexion(SerialPort *PuertoSerie, char *portName);
 void CerrarConexion(SerialPort * PuertoSerie);
-
-//void autoConnect(SerialPort *arduino,char *, char *);
-
 int isConnected(SerialPort *PuertoSerie);
 
-int readSerialPort(SerialPort * PuertoSerie, char *buffer, unsigned int buf_size); //readSerialPort(arduino, incomingData, MAX_DATA_LENGTH);	//lee el primer dato de lo escrito en arduino	
+int readSerialPort(SerialPort * PuertoSerie, char *buffer, unsigned int buf_size); 	
 int writeSerialPort(SerialPort *PuertoSerie, char *buffer, unsigned int buf_size);
-
 
 //FUNCIONES DEL SEMAFORO
 void funcion_titulo(void);
