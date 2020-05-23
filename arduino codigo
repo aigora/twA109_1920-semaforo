@@ -1,0 +1,58 @@
+//LEDS
+int Led[]={11,12,13}; //Led[11] naranja Led[12] verde Led[13] rojo
+//VARIABLES POR PANEL 
+char datos;
+
+//FUNCIONES
+void onoffled(int,int);
+
+void setup() {
+ int i;
+ for(i=0;i<3;i++)
+ {
+  pinMode(Led[i],OUTPUT);
+ }
+ Serial.begin(9600);
+}
+
+void loop() 
+{
+  if (Serial.available()>0)
+  {
+    datos=Serial.read();
+    if(datos== '1')
+    {
+      onoffled(Led[2],1);
+      Serial.println("color: 1");  
+    }
+    if(datos=='2')
+    {
+      digitalWrite(Led[1],HIGH);
+      Serial.println("color: 2");  
+    }
+    if(datos=='3')
+    {
+      digitalWrite(Led[0],HIGH);
+      Serial.println("color: 3");  
+    }
+    if(datos=='4')
+    {
+      digitalWrite(Led[2],LOW);
+      Serial.println("color: 1 off");  
+    }
+    if(datos=='5')
+      digitalWrite(Led[1],LOW);
+    if(datos=='6')
+      digitalWrite(Led[0],LOW);
+  }
+}
+
+//FUNCIONES
+void onoffled(int led, int onoff)
+{
+  if(onoff==1)
+  digitalWrite(led,HIGH);
+  else
+  digitalWrite(led,LOW);
+  
+}
