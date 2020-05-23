@@ -1,6 +1,6 @@
 # SEMAFORO
 
-Semaforo de carretera con pulsador.
+Semaforo de carretera con pulsador(digital, ya que no contabamos con uno fisico).
 
 ## Integrantes del equipo
 Miguel Lobo Ocaña @mloboo
@@ -11,14 +11,6 @@ David Tertre Boyé @dtertre59
 
 ## Objetivos del trabajo
 
-El semáforo que se pone en rojo si el coche que se dirige hacia el sobrepasa el limite de velocidad.
+El programa está estructurado en un menú en el cual puedes comprobar si funcionan las luces leds del arduino, como si se tratase de un mantenimiento del semáforo.
+La otra opción del menú es empezar el semáforo, el cual inicialmente está en verde y pregunta al usuario si desea cruzar en bucle hasta que desee salir del programa, lo que pone en marcha  el cambio de color del semáforo.
 
-Cuando el coche disminuya la velocidad se pondrá verde.
-
-Si no la disminuye y cruza el semáforo en rojo una cámara le hará una foto para poder ver el número de matricula.
-
-El semáforo se pondrá verde para los peatones cuando se pulse un botón (después de un determinado tiempo). 
-
-También pondremos el color naranja del semáforo cuando el verde de los peatones comience a parpadear y en el cambio de rojo a verde.
-
-Todos los datos de lo que va haciendo el semáforo se quedarán guardados para poder revisarlo y comprobar si funciona bien.
